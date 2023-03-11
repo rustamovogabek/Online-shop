@@ -1,0 +1,40 @@
+header {
+    display: flex;
+    gap: 15px;
+    align-items: center;
+    a {
+        color: $link-color;
+    }
+    button{
+        border-radius: 8px;
+    }
+    .visually-hidden {
+        border-radius: 3px;
+        color: rgb(39, 141, 62);
+    }
+    .input-box {
+  border: 1px solid green;
+  width: 300px;
+  height: 30px;
+  border-radius: 10px;
+  display: flex;
+  overflow: hidden;
+  input {
+    width: 100%;
+    border: none;
+    outline: none;
+    background-color: transparent;
+  }
+  button {
+    background-color: green;
+    border: none;
+    padding: 0 10px;
+    border-radius: 5px;
+    height: 30px;
+    display: block;
+    cursor: pointer;
+    color: #fff;
+  }
+}
+
+}
